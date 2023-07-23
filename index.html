@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sjviray's Golf Distance Calculator</title>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
+</head>
+<body>
+    
+
+    <form>
+
+        <label>Ball Speed (MPH):</label>    
+        <input id="speed" class="input" type="text" placeholder="Speed">
+
+
+        <label>Launch Angle (Degrees):</label>   
+        <input id="launch" class="input" type="text" placeholder="Launch">
+
+
+        <label>Backspin (RPM):</label>
+        <input id="backspin" class="input" type="text" placeholder="Backspin">
+
+
+        <label>Side Angle (Degrees, left is negative):</label>
+        <input id="sideAngle" class="input" type="text" placeholder="Side Angle">
+
+
+        <label>Sidespin (RPM, left is negative):</label>
+        <input id="sidespin" class="input" type="text" placeholder="Sidespin">
+
+        <button id="calculate" type="button">Calculate</button>
+
+        <div id="result">Your calculated distance is: </div>
+    </form>
+
+
+
+<div class="about">
+    <div class="title">Sjviray's Golf Distance Calculator</div>
+
+    <button data-open-modal>About This Project</button>
+    <dialog  data-modal class="modal">
+        <div>Hello! Welcome to my Machine Learning-powered Golf Distance Calculator! 
+             The dataset for this project was taken from my very own Skytrak launch monitor using shots from me and my brother. 
+             I trained and implemented an ml5 Neural Network using our shot data to calculate how far a ball should travel given specific stats.
+
+             <br><br><br>
+             Note: <br> <br>
+             Since the dataset for this project is relatively small and taken solely from Skytrak, using another launch monitor will likely produce a different result.
+             However, when tested on Skytrak launch monitor data, 80% of predictions are accurate within 5 yards, and over 90% are accurate within 10 yards.</div>
+        <button data-close-modal> Close</button>
+    </dialog>
+</div>
+
+<script src="data.js"></script>
+
+<!-- IMPORTANT: CHANGE THIS SCRIPT TO script.js TO TRAIN THE MODEL -->
+<script src="script2.js"></script> 
+<script src="modal.js"></script>
+
+</body>
+</html>

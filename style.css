@@ -1,0 +1,122 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    /* background-color: blue; */
+}
+
+input{
+    width: 30%;
+    margin-top: 10px;
+    height: 30px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 5px;
+    border-style:solid;
+    border-color: rgb(172,82,254);
+    background-color: rgba(256,256,256,0.8);
+    color: rgb(172,82,254);
+    font-size: 1.5em;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(172,82,254);
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(172,82,254);
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(172,82,254);
+  }
+label{
+    color: orangered;
+    /* background-color: white; */
+    margin-top: 3rem;
+    font-size: 2em;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+/* CSS */
+button {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 20px;
+  max-width: 200px;
+}
+
+button:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
+
+html{
+    background: url(bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#result{
+    color: white;
+    margin-top: 3rem;
+    font-size: 2em;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.about{
+    /* background-color: red; */
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.title{
+    color: blue;
+    margin-top: 3rem;
+    font-size: 3em;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: white;
+}
+
+body{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+    align-content: center;
+}
+
+.modal{
+    width: min(90vw, 600px);
+    height: min(90vw, 600px);
+}
+
+.modal div{
+  color: blue;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 1.2em;
+}

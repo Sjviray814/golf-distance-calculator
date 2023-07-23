@@ -1,0 +1,1 @@
+{"inputUnits":[5],"outputUnits":1,"inputs":{"speed":{"dtype":"number","min":44,"max":167},"launch":{"dtype":"number","min":5.4,"max":45},"sideAngle":{"dtype":"number","min":-12.9,"max":9.9},"backspin":{"dtype":"number","min":1754,"max":10085},"sidespin":{"dtype":"number","min":-2003,"max":2143}},"outputs":{"carry":{"dtype":"number","min":29,"max":275}},"isNormalized":true}
