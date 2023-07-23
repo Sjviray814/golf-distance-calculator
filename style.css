@@ -20,7 +20,7 @@ input{
     background-color: rgba(256,256,256,0.8);
     color: rgb(172,82,254);
     font-size: 1.5em;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Comic Sans MS", "Comic Sans";
 }
 
 
@@ -41,7 +41,7 @@ label{
     /* background-color: white; */
     margin-top: 3rem;
     font-size: 2em;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Comic Sans MS", "Comic Sans";
 }
 
 /* CSS */
@@ -52,7 +52,7 @@ button {
   color: green;
   cursor: pointer;
   display: inline-block;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Comic Sans MS", "Comic Sans";
   padding: 7px 20px;
   text-align: center;
   text-decoration: none;
@@ -79,7 +79,7 @@ button:hover {
   color: orangered;
   cursor: pointer;
   display: inline-block;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Comic Sans MS", "Comic Sans";
   padding: 7px 20px;
   text-align: center;
   text-decoration: none;
@@ -112,7 +112,7 @@ html{
     color: white;
     margin-top: 3rem;
     font-size: 2em;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Comic Sans MS", "Comic Sans";
 }
 
 .about{
@@ -127,7 +127,7 @@ html{
     color: blue;
     margin-top: 3rem;
     font-size: 3em;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Comic Sans MS", "Comic Sans";
     background-color: white;
 }
 
@@ -144,6 +144,6 @@ body{
 
 .modal div{
   color: blue;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Comic Sans MS", "Comic Sans";
   font-size: 1.2em;
 }
